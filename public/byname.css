@@ -1,0 +1,192 @@
+body{
+    margin: 0 0 0 0;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    height: 90%;
+}
+.dropdown{
+    margin-top: 1%;
+}
+.dropdown-content {
+    margin-top: -16%;
+}
+.body{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: 45% 2% 20% 53%;
+    margin-top: 15%;
+    z-index: 3;
+    position: absolute;
+}
+
+.name{
+    font-size: 1000%;
+    font-family: EncodeSans;
+    grid-column: 3/5;
+    grid-row: 2;
+    text-align:left ;
+    color: #05304b;
+    margin-top: -7%;
+}
+
+.rank{
+    font-size: 125%;
+    font-family: "Altona Sans";
+    grid-row: 3;
+    grid-column: 3;
+    text-align: left;
+    color: #05304b;
+    z-index: 1;
+    margin-top: 18%;
+}
+.day{
+    margin-top: 25%;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 150%;
+    font-family: "Altona Sans";
+    text-align: right;
+    color: #e5f2f8;
+}
+.week{
+    margin-top: 25%;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 150%;
+    font-family: "Altona Sans";
+    text-align: center;
+    color: #e5f2f8;
+}
+.price{
+    grid-row: 1;
+    grid-column: 4/6;
+    font-family: "Altona Sans";
+    font-size: 250%;
+    color: #e5f2f8;
+    text-align: center;
+    margin-top: 12.5%;
+}
+.marketcap{
+    grid-row: 4;
+    grid-column: 2/4;
+    font-family: "Altona Sans";
+    font-size: 200%;
+    color: #05304b;
+    text-align: right;
+    margin-top: 5%;
+}
+.volume{
+    grid-row: 4;
+    grid-column: 4/6;
+    font-family: "Altona Sans";
+    font-size: 200%;
+    color: #05304b;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.circulating{
+    grid-row: 4;
+    grid-column: 1/3;
+    font-family: "Altona Sans";
+    font-size: 200%;
+    color: #05304b;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+div.footer{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height:20% ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    background-color: #A4C7DA;
+    z-index: 2;
+}
+h3{
+    margin-top: 7%;
+    font-family: "EncodeSans";
+    color: #05212d;
+}
+ul{
+    font-family: "Altona Sans";
+    padding:0;
+    list-style:none;
+    font-size:100%
+}
+.mentions{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 60%;
+    width:100%;
+}
+.legales {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 50%;
+    margin-top: 12.5%;
+    width:100%;
+}
+h3.contact{
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 25%;
+    width:100%;
+}
+.link p{
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: -5%;
+}
+ul.link {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 25%;
+    width:100%;
+    margin-top: 12.5%;
+}
+.footer li a {
+    font-size:100%;
+    width: 100%;
+    line-height:200%;
+    color: #05212d;
+    margin-left: 12.5%;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    opacity:0.9;
+}
+.footer .item.social > a {
+    font-size:150%;
+    width: 7%;
+    line-height:200%;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #05212d;
+    margin-left:2%;
+    margin-top:12.5%;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer .item.social > a:hover {
+    opacity:0.9;
+}
+
+.copyright{
+    color: #05212d;
+    margin-left: 8%;
+}
