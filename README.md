@@ -1,7 +1,7 @@
 # Crypto-Crawler
 ## A Propos
 
-* Un jeu d'organisation
+* Un site utilisant une API pour voir l'avancée des cryptos monnaies
 * Langage obligatoire pour le serveur en Javascript
 * Groupe de 2
 
